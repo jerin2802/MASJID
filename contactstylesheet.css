@@ -1,0 +1,138 @@
+body
+{
+	background-color: black;
+	background-size: cover;
+}
+.contact-container{
+	margin: 0 auto;
+	padding : 20px;
+	text-align: center;
+	
+}
+h1{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 40px;
+	color:red;
+}
+p{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+}
+h2{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 35px;
+	font-style: italic;
+	margin:0 auto;
+	width: 100%;
+	font-weight: bold;
+	color: #000;
+	position: absolute;
+	
+	-webkit-animation:colorchange 20s infinite alternate;
+	
+}
+
+@-webkit-keyframes colorchange{
+	0%{
+		color:blue;
+	}
+	5%{
+		color:#642EFE;
+	}
+	10%{
+		color:#AC58FA;
+	}
+	15%{
+		color:#D358F7;
+	}
+	20%{
+		color:#F781F3;
+	}
+	25%{
+		color:#F781BE;
+	}
+	30%{
+		color:#FE2E9A;
+	}
+	35%{
+		color:#FE2E64;
+	}
+	40%{
+		color:#FF0040;
+	}
+	45%{
+		color:#DF013A;
+	}
+	50%{
+		color:#DF3A01;
+	}
+	55%{
+		color:#DF7401;
+	}
+	60%{
+		color:#FF8000;
+	}
+	65%{
+		color:#FFBF00;
+	}
+	70%{
+		color:#F7FE2E;
+	}
+	75%{
+		color:#C8FE2F;
+	}
+	80%{
+		color:#64FE2E;
+	}
+	85%{
+		color:#00FF40;
+	}
+	90%{
+		color:#00FFBE;
+	}
+	95%{
+		color:#01A9DB;
+	}
+	100%{
+		color:#pink;
+	}
+	
+}
+form{
+	margin-top:150px;
+	transition: all 4s ease-in-out;
+	padding-left:350px;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size:20px;
+	margin-bottom: 15px;
+}
+input{
+	height: 45px;
+}
+form .submit{
+	background: #ff5722;
+	border-color: transparent;
+    font-style: bold;
+	font-weight:20px;
+	color:black;
+	font-size: 20px;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+
+}
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
+

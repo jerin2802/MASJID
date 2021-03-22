@@ -1,0 +1,47 @@
+h1{
+	padding-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 50px;
+	font-style: bold;
+	color: blue;
+}
+.menubar{
+	background-color: purple;
+	height: 84px;
+}
+button{
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 20px;
+	background-color: purple;
+	color: yellow;
+}
+
+.banner{
+	background: url("../img/banner.jpg") ;
+	height: 600px;
+	background-size: cover;
+	text-align: center;
+	padding-bottom: 0px;
+}
+h2{
+	padding-top: 260px;
+	text-align: center;
+	font-size: 50px;
+	color: #00FFFF;
+	position: relative;
+	line-height: 120px;
+}
+p{
+	
+	font-size: 50px ;
+	position: relative;
+	font-weight: lighter;
+	transform: transLateY(-50%);
+	color: #52D017;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
